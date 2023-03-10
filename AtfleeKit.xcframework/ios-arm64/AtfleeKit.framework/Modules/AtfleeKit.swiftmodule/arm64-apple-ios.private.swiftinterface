@@ -1,0 +1,161 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AtfleeKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AtfleeBaseKit
+@_exported import AtfleeKit
+import Combine
+import CoreBluetooth
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum AtfleeScanStateType {
+  case scanning
+  case notScanning
+  public static func == (a: AtfleeKit.AtfleeScanStateType, b: AtfleeKit.AtfleeScanStateType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AtfleeBluetoothStateType {
+  case unknown
+  case unsupported
+  case unauthorized
+  case poweredOff
+  case poweredOn
+  public static func == (a: AtfleeKit.AtfleeBluetoothStateType, b: AtfleeKit.AtfleeBluetoothStateType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AtfleeConnectionStateType {
+  case connecting
+  case connected
+  case disconnected
+  public static func == (a: AtfleeKit.AtfleeConnectionStateType, b: AtfleeKit.AtfleeConnectionStateType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AtfleeMeasurementStateType {
+  case idle
+  case unstableWeight
+  case startingAnalysis
+  case analysisComplete
+  case measurementComplete
+  public static func == (a: AtfleeKit.AtfleeMeasurementStateType, b: AtfleeKit.AtfleeMeasurementStateType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AtfleeErrorType : Swift.Error {
+  case bluetoothUnavailable
+  case connectionInProgress
+  public static func == (a: AtfleeKit.AtfleeErrorType, b: AtfleeKit.AtfleeErrorType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct AtfleeDevice {
+  public let name: Swift.String
+  public let macAddress: Swift.String
+  public let rssi: Swift.Int
+}
+extension AtfleeKit.AtfleeManager {
+  public var bluetoothStatePublisher: Combine.AnyPublisher<AtfleeKit.AtfleeBluetoothStateType, Swift.Never> {
+    get
+  }
+  public var scanStatePublisher: Combine.AnyPublisher<AtfleeKit.AtfleeScanStateType, Swift.Never> {
+    get
+  }
+  public var scannedDevicesPublisher: Combine.AnyPublisher<[AtfleeKit.AtfleeDevice], Swift.Never> {
+    get
+  }
+  public var connectionStatePublisher: Combine.AnyPublisher<AtfleeKit.AtfleeConnectionStateType, Swift.Never> {
+    get
+  }
+  public var measurementStatePublisher: Combine.AnyPublisher<AtfleeKit.AtfleeMeasurementStateType, Swift.Never> {
+    get
+  }
+  public var weightMeasurementPublisher: Combine.AnyPublisher<AtfleeKit.AtfleeWeightMeasurement, AtfleeKit.AtfleeErrorType> {
+    get
+  }
+  public func updateUserData(_ userData: AtfleeKit.AtfleeUser)
+  public func startScan(devicesToScan: [AtfleeKit.AtfleeDeviceType] = [], timeoutInSeconds: Swift.Int = 30) throws
+  public func stopScan()
+  public func connectToDevice(_ device: AtfleeKit.AtfleeDevice) throws
+  public func disconnect()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class AtfleeManager : ObjectiveC.NSObject {
+  public static let shared: AtfleeKit.AtfleeManager
+  @objc deinit
+}
+extension AtfleeKit.AtfleeManager : AtfleeBaseKit.ICScanDeviceDelegate {
+  @objc dynamic public func onScanResult(_ deviceInfo: AtfleeBaseKit.ICScanDeviceInfo!)
+}
+extension AtfleeKit.AtfleeManager : AtfleeBaseKit.ICDeviceManagerDelegate {
+  @objc dynamic public func onInitFinish(_ bSuccess: Swift.Bool)
+  @objc dynamic public func onBleState(_ state: AtfleeBaseKit.ICBleState)
+  @objc dynamic public func onDeviceConnectionChanged(_ device: AtfleeBaseKit.ICDevice!, state: AtfleeBaseKit.ICDeviceConnectState)
+  @objc dynamic public func onReceiveMeasureStepData(_ device: AtfleeBaseKit.ICDevice!, step: AtfleeBaseKit.ICMeasureStep, data: ObjectiveC.NSObject!)
+}
+public struct AtfleeUser {
+  public let age: Swift.UInt
+  public let height: Swift.UInt
+  public let weight: Swift.Double
+  public let gender: AtfleeKit.AtfleeUserGenderType
+  public let deviceType: AtfleeKit.AtfleeDeviceType
+  public static var `default`: AtfleeKit.AtfleeUser {
+    get
+  }
+}
+public enum AtfleeUserGenderType {
+  case male
+  case female
+  public static func == (a: AtfleeKit.AtfleeUserGenderType, b: AtfleeKit.AtfleeUserGenderType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AtfleeDeviceType {
+  case t8
+  case t9
+  case iGrip
+  public func toICBFAType() -> AtfleeBaseKit.ICBFAType
+  public static func == (a: AtfleeKit.AtfleeDeviceType, b: AtfleeKit.AtfleeDeviceType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct AtfleeWeightMeasurement {
+  public let weight: Swift.Double
+  public let bodyFatPercent: Swift.Double
+  public let subcutaneousFatPercent: Swift.Double
+  public let visceralFat: Swift.Double
+  public let ffm: Swift.Double
+  public let musclePercent: Swift.Double
+  public let muscleMass: Swift.Double
+  public let bmr: Swift.Int
+}
+extension AtfleeKit.AtfleeScanStateType : Swift.Equatable {}
+extension AtfleeKit.AtfleeScanStateType : Swift.Hashable {}
+extension AtfleeKit.AtfleeBluetoothStateType : Swift.Equatable {}
+extension AtfleeKit.AtfleeBluetoothStateType : Swift.Hashable {}
+extension AtfleeKit.AtfleeConnectionStateType : Swift.Equatable {}
+extension AtfleeKit.AtfleeConnectionStateType : Swift.Hashable {}
+extension AtfleeKit.AtfleeMeasurementStateType : Swift.Equatable {}
+extension AtfleeKit.AtfleeMeasurementStateType : Swift.Hashable {}
+extension AtfleeKit.AtfleeErrorType : Swift.Equatable {}
+extension AtfleeKit.AtfleeErrorType : Swift.Hashable {}
+extension AtfleeKit.AtfleeUserGenderType : Swift.Equatable {}
+extension AtfleeKit.AtfleeUserGenderType : Swift.Hashable {}
+extension AtfleeKit.AtfleeDeviceType : Swift.Equatable {}
+extension AtfleeKit.AtfleeDeviceType : Swift.Hashable {}

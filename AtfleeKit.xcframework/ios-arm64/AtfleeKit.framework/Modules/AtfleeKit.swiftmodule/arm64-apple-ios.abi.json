@@ -1,0 +1,3605 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeScanStateType",
+        "printedName": "AtfleeScanStateType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scanning",
+            "printedName": "scanning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeScanStateType.Type) -> AtfleeKit.AtfleeScanStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeScanStateType",
+                    "printedName": "AtfleeKit.AtfleeScanStateType",
+                    "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeScanStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeScanStateType",
+                        "printedName": "AtfleeKit.AtfleeScanStateType",
+                        "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A13ScanStateTypeO8scanningyA2CmF",
+            "mangledName": "$s9AtfleeKit0A13ScanStateTypeO8scanningyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "notScanning",
+            "printedName": "notScanning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeScanStateType.Type) -> AtfleeKit.AtfleeScanStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeScanStateType",
+                    "printedName": "AtfleeKit.AtfleeScanStateType",
+                    "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeScanStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeScanStateType",
+                        "printedName": "AtfleeKit.AtfleeScanStateType",
+                        "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A13ScanStateTypeO11notScanningyA2CmF",
+            "mangledName": "$s9AtfleeKit0A13ScanStateTypeO11notScanningyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeScanStateType",
+                "printedName": "AtfleeKit.AtfleeScanStateType",
+                "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeScanStateType",
+                "printedName": "AtfleeKit.AtfleeScanStateType",
+                "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A13ScanStateTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A13ScanStateTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A13ScanStateTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A13ScanStateTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A13ScanStateTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A13ScanStateTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A13ScanStateTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A13ScanStateTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A13ScanStateTypeO",
+        "mangledName": "$s9AtfleeKit0A13ScanStateTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeBluetoothStateType",
+        "printedName": "AtfleeBluetoothStateType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeBluetoothStateType.Type) -> AtfleeKit.AtfleeBluetoothStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO7unknownyA2CmF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO7unknownyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "unsupported",
+            "printedName": "unsupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeBluetoothStateType.Type) -> AtfleeKit.AtfleeBluetoothStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO11unsupportedyA2CmF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO11unsupportedyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeBluetoothStateType.Type) -> AtfleeKit.AtfleeBluetoothStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO12unauthorizedyA2CmF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO12unauthorizedyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "poweredOff",
+            "printedName": "poweredOff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeBluetoothStateType.Type) -> AtfleeKit.AtfleeBluetoothStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO10poweredOffyA2CmF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO10poweredOffyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "poweredOn",
+            "printedName": "poweredOn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeBluetoothStateType.Type) -> AtfleeKit.AtfleeBluetoothStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO9poweredOnyA2CmF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO9poweredOnyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeBluetoothStateType",
+                "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeBluetoothStateType",
+                "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A18BluetoothStateTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A18BluetoothStateTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO",
+        "mangledName": "$s9AtfleeKit0A18BluetoothStateTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeConnectionStateType",
+        "printedName": "AtfleeConnectionStateType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "connecting",
+            "printedName": "connecting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeConnectionStateType.Type) -> AtfleeKit.AtfleeConnectionStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeConnectionStateType",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                    "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeConnectionStateType",
+                        "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                        "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO10connectingyA2CmF",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO10connectingyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeConnectionStateType.Type) -> AtfleeKit.AtfleeConnectionStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeConnectionStateType",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                    "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeConnectionStateType",
+                        "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                        "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO9connectedyA2CmF",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO9connectedyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "disconnected",
+            "printedName": "disconnected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeConnectionStateType.Type) -> AtfleeKit.AtfleeConnectionStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeConnectionStateType",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                    "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeConnectionStateType",
+                        "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                        "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO12disconnectedyA2CmF",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO12disconnectedyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeConnectionStateType",
+                "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeConnectionStateType",
+                "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A19ConnectionStateTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A19ConnectionStateTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A19ConnectionStateTypeO",
+        "mangledName": "$s9AtfleeKit0A19ConnectionStateTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeMeasurementStateType",
+        "printedName": "AtfleeMeasurementStateType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeMeasurementStateType.Type) -> AtfleeKit.AtfleeMeasurementStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO4idleyA2CmF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO4idleyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "unstableWeight",
+            "printedName": "unstableWeight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeMeasurementStateType.Type) -> AtfleeKit.AtfleeMeasurementStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO14unstableWeightyA2CmF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO14unstableWeightyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "startingAnalysis",
+            "printedName": "startingAnalysis",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeMeasurementStateType.Type) -> AtfleeKit.AtfleeMeasurementStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO16startingAnalysisyA2CmF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO16startingAnalysisyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "analysisComplete",
+            "printedName": "analysisComplete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeMeasurementStateType.Type) -> AtfleeKit.AtfleeMeasurementStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO16analysisCompleteyA2CmF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO16analysisCompleteyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "measurementComplete",
+            "printedName": "measurementComplete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeMeasurementStateType.Type) -> AtfleeKit.AtfleeMeasurementStateType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO19measurementCompleteyA2CmF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO19measurementCompleteyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeMeasurementStateType",
+                "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeMeasurementStateType",
+                "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A20MeasurementStateTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A20MeasurementStateTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO",
+        "mangledName": "$s9AtfleeKit0A20MeasurementStateTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeErrorType",
+        "printedName": "AtfleeErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bluetoothUnavailable",
+            "printedName": "bluetoothUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeErrorType.Type) -> AtfleeKit.AtfleeErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeErrorType",
+                    "printedName": "AtfleeKit.AtfleeErrorType",
+                    "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeErrorType",
+                        "printedName": "AtfleeKit.AtfleeErrorType",
+                        "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A9ErrorTypeO20bluetoothUnavailableyA2CmF",
+            "mangledName": "$s9AtfleeKit0A9ErrorTypeO20bluetoothUnavailableyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "connectionInProgress",
+            "printedName": "connectionInProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeErrorType.Type) -> AtfleeKit.AtfleeErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeErrorType",
+                    "printedName": "AtfleeKit.AtfleeErrorType",
+                    "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeErrorType",
+                        "printedName": "AtfleeKit.AtfleeErrorType",
+                        "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A9ErrorTypeO20connectionInProgressyA2CmF",
+            "mangledName": "$s9AtfleeKit0A9ErrorTypeO20connectionInProgressyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeErrorType",
+                "printedName": "AtfleeKit.AtfleeErrorType",
+                "usr": "s:9AtfleeKit0A9ErrorTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeErrorType",
+                "printedName": "AtfleeKit.AtfleeErrorType",
+                "usr": "s:9AtfleeKit0A9ErrorTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A9ErrorTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A9ErrorTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A9ErrorTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A9ErrorTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A9ErrorTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A9ErrorTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A9ErrorTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A9ErrorTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A9ErrorTypeO",
+        "mangledName": "$s9AtfleeKit0A9ErrorTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeDevice",
+        "printedName": "AtfleeDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A6DeviceV4nameSSvp",
+            "mangledName": "$s9AtfleeKit0A6DeviceV4nameSSvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A6DeviceV4nameSSvg",
+                "mangledName": "$s9AtfleeKit0A6DeviceV4nameSSvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "macAddress",
+            "printedName": "macAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A6DeviceV10macAddressSSvp",
+            "mangledName": "$s9AtfleeKit0A6DeviceV10macAddressSSvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A6DeviceV10macAddressSSvg",
+                "mangledName": "$s9AtfleeKit0A6DeviceV10macAddressSSvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A6DeviceV4rssiSivp",
+            "mangledName": "$s9AtfleeKit0A6DeviceV4rssiSivp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A6DeviceV4rssiSivg",
+                "mangledName": "$s9AtfleeKit0A6DeviceV4rssiSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AtfleeKit0A6DeviceV",
+        "mangledName": "$s9AtfleeKit0A6DeviceV",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeManager",
+        "printedName": "AtfleeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeManager",
+                "printedName": "AtfleeKit.AtfleeManager",
+                "usr": "c:@M@AtfleeKit@objc(cs)AtfleeManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC6sharedACvpZ",
+            "mangledName": "$s9AtfleeKit0A7ManagerC6sharedACvpZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeManager",
+                    "printedName": "AtfleeKit.AtfleeManager",
+                    "usr": "c:@M@AtfleeKit@objc(cs)AtfleeManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC6sharedACvgZ",
+                "mangledName": "$s9AtfleeKit0A7ManagerC6sharedACvgZ",
+                "moduleName": "AtfleeKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothStatePublisher",
+            "printedName": "bluetoothStatePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeBluetoothStateType, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeBluetoothStateType",
+                    "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                    "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC23bluetoothStatePublisher7Combine03AnyF0VyAA0a9BluetoothE4TypeOs5NeverOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC23bluetoothStatePublisher7Combine03AnyF0VyAA0a9BluetoothE4TypeOs5NeverOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeBluetoothStateType, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeBluetoothStateType",
+                        "printedName": "AtfleeKit.AtfleeBluetoothStateType",
+                        "usr": "s:9AtfleeKit0A18BluetoothStateTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC23bluetoothStatePublisher7Combine03AnyF0VyAA0a9BluetoothE4TypeOs5NeverOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC23bluetoothStatePublisher7Combine03AnyF0VyAA0a9BluetoothE4TypeOs5NeverOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanStatePublisher",
+            "printedName": "scanStatePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeScanStateType, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeScanStateType",
+                    "printedName": "AtfleeKit.AtfleeScanStateType",
+                    "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC18scanStatePublisher7Combine03AnyF0VyAA0a4ScanE4TypeOs5NeverOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC18scanStatePublisher7Combine03AnyF0VyAA0a4ScanE4TypeOs5NeverOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeScanStateType, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeScanStateType",
+                        "printedName": "AtfleeKit.AtfleeScanStateType",
+                        "usr": "s:9AtfleeKit0A13ScanStateTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC18scanStatePublisher7Combine03AnyF0VyAA0a4ScanE4TypeOs5NeverOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC18scanStatePublisher7Combine03AnyF0VyAA0a4ScanE4TypeOs5NeverOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scannedDevicesPublisher",
+            "printedName": "scannedDevicesPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<[AtfleeKit.AtfleeDevice], Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AtfleeKit.AtfleeDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeDevice",
+                        "printedName": "AtfleeKit.AtfleeDevice",
+                        "usr": "s:9AtfleeKit0A6DeviceV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC23scannedDevicesPublisher7Combine03AnyF0VySayAA0A6DeviceVGs5NeverOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC23scannedDevicesPublisher7Combine03AnyF0VySayAA0A6DeviceVGs5NeverOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<[AtfleeKit.AtfleeDevice], Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[AtfleeKit.AtfleeDevice]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AtfleeDevice",
+                            "printedName": "AtfleeKit.AtfleeDevice",
+                            "usr": "s:9AtfleeKit0A6DeviceV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC23scannedDevicesPublisher7Combine03AnyF0VySayAA0A6DeviceVGs5NeverOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC23scannedDevicesPublisher7Combine03AnyF0VySayAA0A6DeviceVGs5NeverOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionStatePublisher",
+            "printedName": "connectionStatePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeConnectionStateType, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeConnectionStateType",
+                    "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                    "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC24connectionStatePublisher7Combine03AnyF0VyAA0a10ConnectionE4TypeOs5NeverOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC24connectionStatePublisher7Combine03AnyF0VyAA0a10ConnectionE4TypeOs5NeverOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeConnectionStateType, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeConnectionStateType",
+                        "printedName": "AtfleeKit.AtfleeConnectionStateType",
+                        "usr": "s:9AtfleeKit0A19ConnectionStateTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC24connectionStatePublisher7Combine03AnyF0VyAA0a10ConnectionE4TypeOs5NeverOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC24connectionStatePublisher7Combine03AnyF0VyAA0a10ConnectionE4TypeOs5NeverOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "measurementStatePublisher",
+            "printedName": "measurementStatePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeMeasurementStateType, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeMeasurementStateType",
+                    "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                    "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC25measurementStatePublisher7Combine03AnyF0VyAA0a11MeasurementE4TypeOs5NeverOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC25measurementStatePublisher7Combine03AnyF0VyAA0a11MeasurementE4TypeOs5NeverOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeMeasurementStateType, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeMeasurementStateType",
+                        "printedName": "AtfleeKit.AtfleeMeasurementStateType",
+                        "usr": "s:9AtfleeKit0A20MeasurementStateTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC25measurementStatePublisher7Combine03AnyF0VyAA0a11MeasurementE4TypeOs5NeverOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC25measurementStatePublisher7Combine03AnyF0VyAA0a11MeasurementE4TypeOs5NeverOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weightMeasurementPublisher",
+            "printedName": "weightMeasurementPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeWeightMeasurement, AtfleeKit.AtfleeErrorType>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeWeightMeasurement",
+                    "printedName": "AtfleeKit.AtfleeWeightMeasurement",
+                    "usr": "s:9AtfleeKit0A17WeightMeasurementV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeErrorType",
+                    "printedName": "AtfleeKit.AtfleeErrorType",
+                    "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A7ManagerC26weightMeasurementPublisher7Combine03AnyF0VyAA0a6WeightE0VAA0A9ErrorTypeOGvp",
+            "mangledName": "$s9AtfleeKit0A7ManagerC26weightMeasurementPublisher7Combine03AnyF0VyAA0a6WeightE0VAA0A9ErrorTypeOGvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<AtfleeKit.AtfleeWeightMeasurement, AtfleeKit.AtfleeErrorType>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeWeightMeasurement",
+                        "printedName": "AtfleeKit.AtfleeWeightMeasurement",
+                        "usr": "s:9AtfleeKit0A17WeightMeasurementV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeErrorType",
+                        "printedName": "AtfleeKit.AtfleeErrorType",
+                        "usr": "s:9AtfleeKit0A9ErrorTypeO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A7ManagerC26weightMeasurementPublisher7Combine03AnyF0VyAA0a6WeightE0VAA0A9ErrorTypeOGvg",
+                "mangledName": "$s9AtfleeKit0A7ManagerC26weightMeasurementPublisher7Combine03AnyF0VyAA0a6WeightE0VAA0A9ErrorTypeOGvg",
+                "moduleName": "AtfleeKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateUserData",
+            "printedName": "updateUserData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeUser",
+                "printedName": "AtfleeKit.AtfleeUser",
+                "usr": "s:9AtfleeKit0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A7ManagerC14updateUserDatayyAA0aE0VF",
+            "mangledName": "$s9AtfleeKit0A7ManagerC14updateUserDatayyAA0aE0VF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startScan",
+            "printedName": "startScan(devicesToScan:timeoutInSeconds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AtfleeKit.AtfleeDeviceType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeDeviceType",
+                    "printedName": "AtfleeKit.AtfleeDeviceType",
+                    "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A7ManagerC9startScan09devicesToE016timeoutInSecondsySayAA0A10DeviceTypeOG_SitKF",
+            "mangledName": "$s9AtfleeKit0A7ManagerC9startScan09devicesToE016timeoutInSecondsySayAA0A10DeviceTypeOG_SitKF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScan",
+            "printedName": "stopScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A7ManagerC8stopScanyyF",
+            "mangledName": "$s9AtfleeKit0A7ManagerC8stopScanyyF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectToDevice",
+            "printedName": "connectToDevice(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeDevice",
+                "printedName": "AtfleeKit.AtfleeDevice",
+                "usr": "s:9AtfleeKit0A6DeviceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A7ManagerC15connectToDeviceyyAA0aF0VKF",
+            "mangledName": "$s9AtfleeKit0A7ManagerC15connectToDeviceyyAA0aF0VKF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A7ManagerC10disconnectyyF",
+            "mangledName": "$s9AtfleeKit0A7ManagerC10disconnectyyF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScanResult",
+            "printedName": "onScanResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AtfleeBaseKit.ICScanDeviceInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICScanDeviceInfo",
+                    "printedName": "AtfleeBaseKit.ICScanDeviceInfo",
+                    "usr": "c:objc(cs)ICScanDeviceInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AtfleeKit@objc(cs)AtfleeManager(im)onScanResult:",
+            "mangledName": "$s9AtfleeKit0A7ManagerC12onScanResultyySo16ICScanDeviceInfoCSgF",
+            "moduleName": "AtfleeKit",
+            "objc_name": "onScanResult:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onInitFinish",
+            "printedName": "onInitFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AtfleeKit@objc(cs)AtfleeManager(im)onInitFinish:",
+            "mangledName": "$s9AtfleeKit0A7ManagerC12onInitFinishyySbF",
+            "moduleName": "AtfleeKit",
+            "objc_name": "onInitFinish:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onBleState",
+            "printedName": "onBleState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ICBleState",
+                "printedName": "AtfleeBaseKit.ICBleState",
+                "usr": "c:@E@ICBleState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AtfleeKit@objc(cs)AtfleeManager(im)onBleState:",
+            "mangledName": "$s9AtfleeKit0A7ManagerC10onBleStateyySo05ICBleF0VF",
+            "moduleName": "AtfleeKit",
+            "objc_name": "onBleState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDeviceConnectionChanged",
+            "printedName": "onDeviceConnectionChanged(_:state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AtfleeBaseKit.ICDevice?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICDevice",
+                    "printedName": "AtfleeBaseKit.ICDevice",
+                    "usr": "c:objc(cs)ICDevice"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ICDeviceConnectState",
+                "printedName": "AtfleeBaseKit.ICDeviceConnectState",
+                "usr": "c:@E@ICDeviceConnectState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AtfleeKit@objc(cs)AtfleeManager(im)onDeviceConnectionChanged:state:",
+            "mangledName": "$s9AtfleeKit0A7ManagerC25onDeviceConnectionChanged_5stateySo8ICDeviceCSg_So0I12ConnectStateVtF",
+            "moduleName": "AtfleeKit",
+            "objc_name": "onDeviceConnectionChanged:state:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onReceiveMeasureStepData",
+            "printedName": "onReceiveMeasureStepData(_:step:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AtfleeBaseKit.ICDevice?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICDevice",
+                    "printedName": "AtfleeBaseKit.ICDevice",
+                    "usr": "c:objc(cs)ICDevice"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ICMeasureStep",
+                "printedName": "AtfleeBaseKit.ICMeasureStep",
+                "usr": "c:@EA@ICMeasureStep"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AtfleeKit@objc(cs)AtfleeManager(im)onReceiveMeasureStepData:step:data:",
+            "mangledName": "$s9AtfleeKit0A7ManagerC24onReceiveMeasureStepData_4step4dataySo8ICDeviceCSg_So09ICMeasureG0aSo8NSObjectCSgtF",
+            "moduleName": "AtfleeKit",
+            "objc_name": "onReceiveMeasureStepData:step:data:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AtfleeKit@objc(cs)AtfleeManager",
+        "mangledName": "$s9AtfleeKit0A7ManagerC",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeUser",
+        "printedName": "AtfleeUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV3ageSuvp",
+            "mangledName": "$s9AtfleeKit0A4UserV3ageSuvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV3ageSuvg",
+                "mangledName": "$s9AtfleeKit0A4UserV3ageSuvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV6heightSuvp",
+            "mangledName": "$s9AtfleeKit0A4UserV6heightSuvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV6heightSuvg",
+                "mangledName": "$s9AtfleeKit0A4UserV6heightSuvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weight",
+            "printedName": "weight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV6weightSdvp",
+            "mangledName": "$s9AtfleeKit0A4UserV6weightSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV6weightSdvg",
+                "mangledName": "$s9AtfleeKit0A4UserV6weightSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeUserGenderType",
+                "printedName": "AtfleeKit.AtfleeUserGenderType",
+                "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV6genderAA0aC10GenderTypeOvp",
+            "mangledName": "$s9AtfleeKit0A4UserV6genderAA0aC10GenderTypeOvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeUserGenderType",
+                    "printedName": "AtfleeKit.AtfleeUserGenderType",
+                    "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV6genderAA0aC10GenderTypeOvg",
+                "mangledName": "$s9AtfleeKit0A4UserV6genderAA0aC10GenderTypeOvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceType",
+            "printedName": "deviceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeDeviceType",
+                "printedName": "AtfleeKit.AtfleeDeviceType",
+                "usr": "s:9AtfleeKit0A10DeviceTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV10deviceTypeAA0a6DeviceE0Ovp",
+            "mangledName": "$s9AtfleeKit0A4UserV10deviceTypeAA0a6DeviceE0Ovp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeDeviceType",
+                    "printedName": "AtfleeKit.AtfleeDeviceType",
+                    "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV10deviceTypeAA0a6DeviceE0Ovg",
+                "mangledName": "$s9AtfleeKit0A4UserV10deviceTypeAA0a6DeviceE0Ovg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeUser",
+                "printedName": "AtfleeKit.AtfleeUser",
+                "usr": "s:9AtfleeKit0A4UserV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A4UserV7defaultACvpZ",
+            "mangledName": "$s9AtfleeKit0A4UserV7defaultACvpZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeUser",
+                    "printedName": "AtfleeKit.AtfleeUser",
+                    "usr": "s:9AtfleeKit0A4UserV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A4UserV7defaultACvgZ",
+                "mangledName": "$s9AtfleeKit0A4UserV7defaultACvgZ",
+                "moduleName": "AtfleeKit",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AtfleeKit0A4UserV",
+        "mangledName": "$s9AtfleeKit0A4UserV",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeUserGenderType",
+        "printedName": "AtfleeUserGenderType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "male",
+            "printedName": "male",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeUserGenderType.Type) -> AtfleeKit.AtfleeUserGenderType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeUserGenderType",
+                    "printedName": "AtfleeKit.AtfleeUserGenderType",
+                    "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeUserGenderType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeUserGenderType",
+                        "printedName": "AtfleeKit.AtfleeUserGenderType",
+                        "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A14UserGenderTypeO4maleyA2CmF",
+            "mangledName": "$s9AtfleeKit0A14UserGenderTypeO4maleyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "female",
+            "printedName": "female",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeUserGenderType.Type) -> AtfleeKit.AtfleeUserGenderType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeUserGenderType",
+                    "printedName": "AtfleeKit.AtfleeUserGenderType",
+                    "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeUserGenderType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeUserGenderType",
+                        "printedName": "AtfleeKit.AtfleeUserGenderType",
+                        "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A14UserGenderTypeO6femaleyA2CmF",
+            "mangledName": "$s9AtfleeKit0A14UserGenderTypeO6femaleyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeUserGenderType",
+                "printedName": "AtfleeKit.AtfleeUserGenderType",
+                "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeUserGenderType",
+                "printedName": "AtfleeKit.AtfleeUserGenderType",
+                "usr": "s:9AtfleeKit0A14UserGenderTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A14UserGenderTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A14UserGenderTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A14UserGenderTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A14UserGenderTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A14UserGenderTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A14UserGenderTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A14UserGenderTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A14UserGenderTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A14UserGenderTypeO",
+        "mangledName": "$s9AtfleeKit0A14UserGenderTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeDeviceType",
+        "printedName": "AtfleeDeviceType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "t8",
+            "printedName": "t8",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeDeviceType.Type) -> AtfleeKit.AtfleeDeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeDeviceType",
+                    "printedName": "AtfleeKit.AtfleeDeviceType",
+                    "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeDeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeDeviceType",
+                        "printedName": "AtfleeKit.AtfleeDeviceType",
+                        "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO2t8yA2CmF",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO2t8yA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "t9",
+            "printedName": "t9",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeDeviceType.Type) -> AtfleeKit.AtfleeDeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeDeviceType",
+                    "printedName": "AtfleeKit.AtfleeDeviceType",
+                    "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeDeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeDeviceType",
+                        "printedName": "AtfleeKit.AtfleeDeviceType",
+                        "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO2t9yA2CmF",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO2t9yA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Var",
+            "name": "iGrip",
+            "printedName": "iGrip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AtfleeKit.AtfleeDeviceType.Type) -> AtfleeKit.AtfleeDeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeDeviceType",
+                    "printedName": "AtfleeKit.AtfleeDeviceType",
+                    "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AtfleeKit.AtfleeDeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeDeviceType",
+                        "printedName": "AtfleeKit.AtfleeDeviceType",
+                        "usr": "s:9AtfleeKit0A10DeviceTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO5iGripyA2CmF",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO5iGripyA2CmF",
+            "moduleName": "AtfleeKit"
+          },
+          {
+            "kind": "Function",
+            "name": "toICBFAType",
+            "printedName": "toICBFAType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ICBFAType",
+                "printedName": "AtfleeBaseKit.ICBFAType",
+                "usr": "c:@EA@ICBFAType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO11toICBFATypeSo0F0ayF",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO11toICBFATypeSo0F0ayF",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeDeviceType",
+                "printedName": "AtfleeKit.AtfleeDeviceType",
+                "usr": "s:9AtfleeKit0A10DeviceTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AtfleeDeviceType",
+                "printedName": "AtfleeKit.AtfleeDeviceType",
+                "usr": "s:9AtfleeKit0A10DeviceTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "AtfleeKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO9hashValueSivp",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO9hashValueSivp",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A10DeviceTypeO9hashValueSivg",
+                "mangledName": "$s9AtfleeKit0A10DeviceTypeO9hashValueSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AtfleeKit0A10DeviceTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9AtfleeKit0A10DeviceTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "AtfleeKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9AtfleeKit0A10DeviceTypeO",
+        "mangledName": "$s9AtfleeKit0A10DeviceTypeO",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AtfleeBaseKit",
+        "printedName": "AtfleeBaseKit",
+        "declKind": "Import",
+        "moduleName": "AtfleeKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeWeightMeasurement",
+        "printedName": "AtfleeWeightMeasurement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "weight",
+            "printedName": "weight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV6weightSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV6weightSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV6weightSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV6weightSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyFatPercent",
+            "printedName": "bodyFatPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV14bodyFatPercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV14bodyFatPercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV14bodyFatPercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV14bodyFatPercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subcutaneousFatPercent",
+            "printedName": "subcutaneousFatPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV22subcutaneousFatPercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV22subcutaneousFatPercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV22subcutaneousFatPercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV22subcutaneousFatPercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visceralFat",
+            "printedName": "visceralFat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV11visceralFatSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11visceralFatSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV11visceralFatSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11visceralFatSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ffm",
+            "printedName": "ffm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV3ffmSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3ffmSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV3ffmSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3ffmSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "musclePercent",
+            "printedName": "musclePercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muscleMass",
+            "printedName": "muscleMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bmr",
+            "printedName": "bmr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AtfleeKit0A17WeightMeasurementV",
+        "mangledName": "$s9AtfleeKit0A17WeightMeasurementV",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ming\/Documents\/Dev\/Huray.nosync\/iOS\/Modules\/BLE\/AtfleeKit\/AtfleeKit\/AtfleeManager.swift",
+      "kind": "Array",
+      "offset": 1363,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ming\/Documents\/Dev\/Huray.nosync\/iOS\/Modules\/BLE\/AtfleeKit\/AtfleeKit\/AtfleeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/ming\/Documents\/Dev\/Huray.nosync\/iOS\/Modules\/BLE\/AtfleeKit\/AtfleeKit\/AtfleeManager.swift",
+      "kind": "Array",
+      "offset": 3591,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ming\/Documents\/Dev\/Huray.nosync\/iOS\/Modules\/BLE\/AtfleeKit\/AtfleeKit\/AtfleeManager.swift",
+      "kind": "Array",
+      "offset": 3962,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

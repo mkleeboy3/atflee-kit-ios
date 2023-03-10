@@ -1,0 +1,6 @@
+framework module AtfleeBaseKit {
+  umbrella header "AtfleeBaseKit.h"
+
+  export *
+  module * { export * }
+}

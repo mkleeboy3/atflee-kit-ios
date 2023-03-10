@@ -1,0 +1,11 @@
+framework module AtfleeKit {
+  umbrella header "AtfleeKit.h"
+
+  export *
+  module * { export * }
+}
+
+module AtfleeKit.Swift {
+  header "AtfleeKit-Swift.h"
+  requires objc
+}
