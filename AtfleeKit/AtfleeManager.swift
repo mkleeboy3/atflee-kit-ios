@@ -245,14 +245,14 @@ extension AtfleeManager: ICDeviceManagerDelegate {
       case ICMeasureStepAdcResult:
         measurementStateSubject
           .send(.analysisComplete)
-        if let weightData = data as? ICWeightData {
-          onWeightDataReceived(weightData)
-        }
         break
         
       case ICMeasureStepMeasureOver:
         measurementStateSubject
           .send(.measurementComplete)
+        if let weightData = data as? ICWeightData {
+          onWeightDataReceived(weightData)
+        }
         break
         
       default:

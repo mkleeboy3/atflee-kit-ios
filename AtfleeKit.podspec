@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AtfleeKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Atflee bluetooth interface for iOS'
 
   s.description      = <<-DESC

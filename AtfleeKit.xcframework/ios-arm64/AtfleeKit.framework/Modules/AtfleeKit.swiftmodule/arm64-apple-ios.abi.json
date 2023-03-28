@@ -3210,8 +3210,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "weight",
-            "printedName": "weight",
+            "name": "bmi",
+            "printedName": "bmi",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3221,8 +3221,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AtfleeKit0A17WeightMeasurementV6weightSdvp",
-            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV6weightSdvp",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmiSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmiSdvp",
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
@@ -3244,8 +3244,53 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AtfleeKit0A17WeightMeasurementV6weightSdvg",
-                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV6weightSdvg",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmiSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmiSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bmr",
+            "printedName": "bmr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivg",
                 "moduleName": "AtfleeKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3270,7 +3315,8 @@
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3298,6 +3344,546 @@
           },
           {
             "kind": "Var",
+            "name": "boneMass",
+            "printedName": "boneMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV8boneMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8boneMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV8boneMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8boneMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fatFreeMass",
+            "printedName": "fatFreeMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV11fatFreeMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11fatFreeMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV11fatFreeMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11fatFreeMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moistureMass",
+            "printedName": "moistureMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV12moistureMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV12moistureMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV12moistureMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV12moistureMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moisturePercent",
+            "printedName": "moisturePercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV15moisturePercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV15moisturePercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV15moisturePercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV15moisturePercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muscleMass",
+            "printedName": "muscleMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "musclePercent",
+            "printedName": "musclePercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minerals",
+            "printedName": "minerals",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV8mineralsSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8mineralsSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV8mineralsSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8mineralsSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "physicalAge",
+            "printedName": "physicalAge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV11physicalAgeSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11physicalAgeSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV11physicalAgeSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11physicalAgeSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proteinPercent",
+            "printedName": "proteinPercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV14proteinPercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV14proteinPercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV14proteinPercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV14proteinPercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proteinMass",
+            "printedName": "proteinMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV11proteinMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11proteinMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV11proteinMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV11proteinMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skeletalMuscleMass",
+            "printedName": "skeletalMuscleMass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV18skeletalMuscleMassSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV18skeletalMuscleMassSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV18skeletalMuscleMassSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV18skeletalMuscleMassSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "skeletalMusclePercent",
+            "printedName": "skeletalMusclePercent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV21skeletalMusclePercentSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV21skeletalMusclePercentSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV21skeletalMusclePercentSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV21skeletalMusclePercentSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "subcutaneousFatPercent",
             "printedName": "subcutaneousFatPercent",
             "children": [
@@ -3314,7 +3900,8 @@
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3358,7 +3945,8 @@
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3386,8 +3974,8 @@
           },
           {
             "kind": "Var",
-            "name": "ffm",
-            "printedName": "ffm",
+            "name": "waistHipRatio",
+            "printedName": "waistHipRatio",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3397,12 +3985,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AtfleeKit0A17WeightMeasurementV3ffmSdvp",
-            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3ffmSdvp",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV13waistHipRatioSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13waistHipRatioSdvp",
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3420,8 +4009,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AtfleeKit0A17WeightMeasurementV3ffmSdvg",
-                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3ffmSdvg",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV13waistHipRatioSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13waistHipRatioSdvg",
                 "moduleName": "AtfleeKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3430,8 +4019,8 @@
           },
           {
             "kind": "Var",
-            "name": "musclePercent",
-            "printedName": "musclePercent",
+            "name": "weightKg",
+            "printedName": "weightKg",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3441,12 +4030,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
-            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvp",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV8weightKgSdvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8weightKgSdvp",
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3464,8 +4054,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
-                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV13musclePercentSdvg",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV8weightKgSdvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV8weightKgSdvg",
                 "moduleName": "AtfleeKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3474,23 +4064,32 @@
           },
           {
             "kind": "Var",
-            "name": "muscleMass",
-            "printedName": "muscleMass",
+            "name": "extraData",
+            "printedName": "extraData",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Optional",
+                "printedName": "AtfleeKit.AtfleeExtraWeightMeasurement?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AtfleeExtraWeightMeasurement",
+                    "printedName": "AtfleeKit.AtfleeExtraWeightMeasurement",
+                    "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
-            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvp",
+            "usr": "s:9AtfleeKit0A17WeightMeasurementV9extraDataAA0a5ExtracD0VSgvp",
+            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV9extraDataAA0a5ExtracD0VSgvp",
             "moduleName": "AtfleeKit",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3502,58 +4101,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Optional",
+                    "printedName": "AtfleeKit.AtfleeExtraWeightMeasurement?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AtfleeExtraWeightMeasurement",
+                        "printedName": "AtfleeKit.AtfleeExtraWeightMeasurement",
+                        "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
-                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV10muscleMassSdvg",
-                "moduleName": "AtfleeKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "bmr",
-            "printedName": "bmr",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivp",
-            "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivp",
-            "moduleName": "AtfleeKit",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9AtfleeKit0A17WeightMeasurementV3bmrSivg",
-                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV3bmrSivg",
+                "usr": "s:9AtfleeKit0A17WeightMeasurementV9extraDataAA0a5ExtracD0VSgvg",
+                "mangledName": "$s9AtfleeKit0A17WeightMeasurementV9extraDataAA0a5ExtracD0VSgvg",
                 "moduleName": "AtfleeKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3564,6 +4127,919 @@
         "declKind": "Struct",
         "usr": "s:9AtfleeKit0A17WeightMeasurementV",
         "mangledName": "$s9AtfleeKit0A17WeightMeasurementV",
+        "moduleName": "AtfleeKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AtfleeExtraWeightMeasurement",
+        "printedName": "AtfleeExtraWeightMeasurement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leftArm",
+            "printedName": "leftArm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7leftArmSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7leftArmSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7leftArmSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7leftArmSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightArm",
+            "printedName": "rightArm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV8rightArmSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV8rightArmSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV8rightArmSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV8rightArmSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftLeg",
+            "printedName": "leftLeg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7leftLegSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7leftLegSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7leftLegSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7leftLegSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightLeg",
+            "printedName": "rightLeg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV8rightLegSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV8rightLegSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV8rightLegSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV8rightLegSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allBody",
+            "printedName": "allBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7allBodySdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7allBodySdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV7allBodySdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV7allBodySdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftArmKg",
+            "printedName": "leftArmKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9leftArmKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9leftArmKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9leftArmKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9leftArmKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightArmKg",
+            "printedName": "rightArmKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV10rightArmKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV10rightArmKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV10rightArmKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV10rightArmKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftLegKg",
+            "printedName": "leftLegKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9leftLegKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9leftLegKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9leftLegKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9leftLegKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightLegKg",
+            "printedName": "rightLegKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV10rightLegKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV10rightLegKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV10rightLegKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV10rightLegKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allBodyKg",
+            "printedName": "allBodyKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9allBodyKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9allBodyKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV9allBodyKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV9allBodyKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftArmMuscle",
+            "printedName": "leftArmMuscle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13leftArmMuscleSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13leftArmMuscleSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13leftArmMuscleSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13leftArmMuscleSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightArmMuscle",
+            "printedName": "rightArmMuscle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV14rightArmMuscleSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV14rightArmMuscleSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV14rightArmMuscleSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV14rightArmMuscleSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftLegMuscle",
+            "printedName": "leftLegMuscle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13leftLegMuscleSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13leftLegMuscleSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13leftLegMuscleSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13leftLegMuscleSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightLegMuscle",
+            "printedName": "rightLegMuscle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV14rightLegMuscleSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV14rightLegMuscleSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV14rightLegMuscleSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV14rightLegMuscleSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allBodyMuscle",
+            "printedName": "allBodyMuscle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13allBodyMuscleSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13allBodyMuscleSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV13allBodyMuscleSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV13allBodyMuscleSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftArmMuscleKg",
+            "printedName": "leftArmMuscleKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15leftArmMuscleKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15leftArmMuscleKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15leftArmMuscleKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15leftArmMuscleKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightArmMuscleKg",
+            "printedName": "rightArmMuscleKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV16rightArmMuscleKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV16rightArmMuscleKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV16rightArmMuscleKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV16rightArmMuscleKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "leftLegMuscleKg",
+            "printedName": "leftLegMuscleKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15leftLegMuscleKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15leftLegMuscleKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15leftLegMuscleKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15leftLegMuscleKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rightLegMuscleKg",
+            "printedName": "rightLegMuscleKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV16rightLegMuscleKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV16rightLegMuscleKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV16rightLegMuscleKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV16rightLegMuscleKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allBodyMuscleKg",
+            "printedName": "allBodyMuscleKg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15allBodyMuscleKgSdvp",
+            "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15allBodyMuscleKgSdvp",
+            "moduleName": "AtfleeKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV15allBodyMuscleKgSdvg",
+                "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV15allBodyMuscleKgSdvg",
+                "moduleName": "AtfleeKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9AtfleeKit0A22ExtraWeightMeasurementV",
+        "mangledName": "$s9AtfleeKit0A22ExtraWeightMeasurementV",
         "moduleName": "AtfleeKit",
         "declAttributes": [
           "AccessControl"

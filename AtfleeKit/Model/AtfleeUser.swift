@@ -47,8 +47,6 @@ public enum AtfleeUserGenderType {
         return .male
       case .female:
         return .femal
-      default:
-        fatalError()
     }
   }
 }

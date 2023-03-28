@@ -136,14 +136,48 @@ public enum AtfleeDeviceType {
   }
 }
 public struct AtfleeWeightMeasurement {
-  public let weight: Swift.Double
+  public let bmi: Swift.Double
+  public let bmr: Swift.Int
   public let bodyFatPercent: Swift.Double
+  public let boneMass: Swift.Double
+  public let fatFreeMass: Swift.Double
+  public let moistureMass: Swift.Double
+  public let moisturePercent: Swift.Double
+  public let muscleMass: Swift.Double
+  public let musclePercent: Swift.Double
+  public let minerals: Swift.Double
+  public let physicalAge: Swift.Double
+  public let proteinPercent: Swift.Double
+  public let proteinMass: Swift.Double
+  public let skeletalMuscleMass: Swift.Double
+  public let skeletalMusclePercent: Swift.Double
   public let subcutaneousFatPercent: Swift.Double
   public let visceralFat: Swift.Double
-  public let ffm: Swift.Double
-  public let musclePercent: Swift.Double
-  public let muscleMass: Swift.Double
-  public let bmr: Swift.Int
+  public let waistHipRatio: Swift.Double
+  public let weightKg: Swift.Double
+  public let extraData: AtfleeKit.AtfleeExtraWeightMeasurement?
+}
+public struct AtfleeExtraWeightMeasurement {
+  public let leftArm: Swift.Double
+  public let rightArm: Swift.Double
+  public let leftLeg: Swift.Double
+  public let rightLeg: Swift.Double
+  public let allBody: Swift.Double
+  public let leftArmKg: Swift.Double
+  public let rightArmKg: Swift.Double
+  public let leftLegKg: Swift.Double
+  public let rightLegKg: Swift.Double
+  public let allBodyKg: Swift.Double
+  public let leftArmMuscle: Swift.Double
+  public let rightArmMuscle: Swift.Double
+  public let leftLegMuscle: Swift.Double
+  public let rightLegMuscle: Swift.Double
+  public let allBodyMuscle: Swift.Double
+  public let leftArmMuscleKg: Swift.Double
+  public let rightArmMuscleKg: Swift.Double
+  public let leftLegMuscleKg: Swift.Double
+  public let rightLegMuscleKg: Swift.Double
+  public let allBodyMuscleKg: Swift.Double
 }
 extension AtfleeKit.AtfleeScanStateType : Swift.Equatable {}
 extension AtfleeKit.AtfleeScanStateType : Swift.Hashable {}

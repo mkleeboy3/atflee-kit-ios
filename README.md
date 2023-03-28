@@ -9,7 +9,6 @@
 #### build 폴더로 지원하려는 기기에 맞게 archive 한다.
 ```sh
 xcodebuild archive \
-  -workspace AtfleeKit.xcworkspace \
   -scheme AtfleeKit \
   -archivePath './build/ios.xcarchive' \
   -sdk iphoneos \

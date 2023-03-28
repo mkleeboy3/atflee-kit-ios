@@ -76,10 +76,10 @@ struct MainScreen: View {
         List {
           let measurement = vm.measurement
           VStack {
-            Text("weight: \(measurement!.weight)")
+            Text("weight: \(measurement!.weightKg)")
             Text("muscleMass: \(measurement!.muscleMass)")
             Text("musclePercent: \(measurement!.musclePercent)")
-            Text("ffm: \(measurement!.ffm)")
+            Text("ffm: \(measurement!.fatFreeMass)")
             Text("visceralFat: \(measurement!.visceralFat)")
             Text("subcutaneousFatPercent: \(measurement!.subcutaneousFatPercent)")
             Text("bodyFatPercent: \(measurement!.bodyFatPercent)")
@@ -145,11 +145,5 @@ struct MainScreen: View {
       Spacer()
     }
     .padding()
-  }
-}
-
-struct MainView_Previews: PreviewProvider {
-  static var previews: some View {
-    MainScreen()
   }
 }
